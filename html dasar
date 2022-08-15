@@ -1,5 +1,5 @@
 #HTML (hypertext markup language)
-
+bahasa markup
 HTML diciptakan untuk membuat struktur sebuah halaman dan untuk menyajikan konten.
 HTML adalah bahasa untuk menggambarkan struktur halaman Web. HTML memberi penulis sarana untuk:
 -Publikasikan dokumen online dengan judul, teks, tabel, daftar, foto, dll.
@@ -7,3 +7,96 @@ HTML adalah bahasa untuk menggambarkan struktur halaman Web. HTML memberi penuli
 -Merancang formulir untuk melakukan transaksi dengan layanan jarak jauh, untuk digunakan dalam mencari informasi, melakukan reservasi, memesan produk, dll.
 -Sertakan spreadsheet, klip video, klip suara, dan aplikasi lain secara langsung dalam dokumen mereka.
 -Dengan HTML, penulis menggambarkan struktur halaman menggunakan markup. Unsur-unsur bahasa melabeli bagian konten seperti "paragraf", "daftar", "tabel", dan seterusnya.
+#Hello world
+sebelumnya buatlah file terlebih dahulu, lalu buka dengan menggunakan notepad
+
+code html
+<!doctype html>
+<html>
+<head>
+  <title></title>
+</head>  
+
+<body>
+<p>hello world</p>
+
+</body>
+</html>
+-save, lalu buka di browser
+
+#code editor yaitu sublime tekt
+sublime tekt adalah text editor yang memiliki kemampuan yang bagus dibandingkan notepad
+jadi untuk mempraktekan html lebih enak menggunakan sublime text daripada notepad karena jika di sublime text terdapat warna pada code html yang disebut syntax highlighting
+jadi ketika kalian salah, maka code tersebut tidak akan muncul warna syntax highlightingnya.
+
+#TAG <html>
+tag adalah code dari html dimana kita menuliskan tanda lebih kecil dari dan diakhiri dengan besar dari. tag itu ada yang berpasangan dan tidak, biasanya tag yang berpasangan itu mempunyai pembuka dan penutup. tag penutup itu memiliki garis depan
+1.bagian <head>:
+-judul halaman
+ <title></title>
+-css
+ <style></style>
+-javascript
+ <script></script>
+-metadata
+ <meta></meta>
+ 2.bagian <body>:
+ -teks
+  <h1>,<h2>,<h3>,<h4>,<h5>,<h6>,<p>.
+ -pendukung teks
+  <br>,<hr>,<em>,<strong>
+ -gambar
+  <img>
+ -hyperlink
+  <a>
+ -list(bullets&numbering)
+  <ul>,<ol>,<li>,<dl>,<dt>,<dd>
+ -tabel
+  <table>,<thead>,<tbody>
+ -script
+ <script>
+ -object
+  <object>
+ -grouping
+ <div>,<span>
+ 
+ -STRUKTUR TAG
+  <namatag atribut="nilai"> : <body bgcolor="lightblue">
+body=nama tag
+bgcolor=atribut
+lightblue=nilai/value
+
+-atribut global:acceskey,clas,id,dir,lang,style,tabindex,title
+
+#Paragraf <html>
+Paragraf adalah kumpulan dari beberapa kalimat. Pada web, Paragraf biasanya digunakan untuk menampilkan teks atau artikel.
+Paragraf pada HTML dibuat dengan tag <p>kalimatmu</p>
+kalian bisa menggunakan tag bantuan yaitu <hr>,<br>
+<hr> adalah untuk membuat garis horizontal dan <br> untuk membuat garis baru
+lalu kita juga akan bahas <b><b/>,<i></i>,<u></u>
+yang b membuat teks menjadi bold
+yang i membuat teks menjadi italic
+yang u untuk menambahkan underline
+-jika kalian ingin membuat paragraf yang memiliki makna kalian gunakan: <strong></strong> & <em></em>.
+
+#Heading pada html
+heading pada html yaitu mengatur besar dan kecil teks kalian di browser
+<h1>heading 1</h1>
+<h2>heading 2</h2>
+<h3>heading 3</h3>
+<h4>heading 4</h4>
+<h5>heading 5
+<h6>heading 6
+
+
+
+
+
+
+
+
+
+
+
+
+
